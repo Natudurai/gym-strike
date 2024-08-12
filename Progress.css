@@ -1,0 +1,108 @@
+.progress-page {
+  padding: 30px; /* Slightly increased padding */
+  text-align: center;
+  background-image: url('gympic9.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.progress-page h2 {
+  font-size: 1.8rem; /* Slightly increased font size */
+  color: #ffffff;
+  margin-bottom: 12px; /* Slightly increased margin */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.progress-form {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; /* Slightly increased padding */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  max-width: 300px; /* Slightly increased width */
+  width: 100%;
+  height: auto; 
+  max-height: 400px; /* Slightly increased height */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.form-group {
+  margin-bottom: 10px; /* Slightly increased margin */
+  width: 100%;
+}
+
+.form-group label h3 {
+  margin-bottom: 6px; /* Slightly increased margin */
+  font-size: 0.85rem; /* Slightly increased font size */
+  color: #ffffff;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 6px; /* Slightly increased padding */
+  font-size: 0.75rem; /* Slightly increased font size */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s, border 0.3s;
+}
+
+.form-group input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #1e90ff;
+  outline: none;
+}
+
+button {
+  width: 50%;
+  padding: 7px; /* Slightly increased padding */
+  font-size: 0.85rem; /* Slightly increased font size */
+  background: #1e90ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.progress-results {
+  margin-top: 12px; /* Slightly increased margin */
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px; /* Slightly increased padding */
+  border-radius: 10px;
+  max-width: 240px; /* Slightly increased width */
+  width: 100%;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.progress-results h3 {
+  font-size: 1.2rem; /* Slightly increased font size */
+  color: #11ec5a;
+  margin-bottom: 10px; /* Slightly increased margin */
+}
+
+.progress-results p {
+  font-size: 1rem; /* Slightly increased font size */
+  margin-bottom: 6px; /* Slightly increased margin */
+}
+
+.progress-results p:last-child {
+  margin-bottom: 0;
+}

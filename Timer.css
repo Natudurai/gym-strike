@@ -1,0 +1,60 @@
+.timer {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.8rem;
+    background-color: #ffffff; /* Changed to pure white for better contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Increased shadow for more depth */
+    max-width: 200px; /* Reduced width for a more compact design */
+    text-align: center;
+    z-index: 1000;
+}
+
+.timer h4 {
+    font-size: 1.1rem; /* Slightly reduced font size */
+    margin-bottom: 0.6rem; /* Reduced margin for tighter spacing */
+    color: #444; /* Darkened color for better readability */
+    font-weight: 600;
+}
+
+.timer button {
+    margin: 0.3rem;
+    padding: 0.5rem 1rem; /* Reduced padding for a more compact look */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #176dca;
+    color: white;
+    font-size: 0.85rem; /* Slightly reduced font size */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.timer button:hover {
+    background-color: #0056b3;
+}
+
+.timer button:disabled {
+    background-color: #cccccc; /* Lightened disabled color for a softer look */
+    cursor: not-allowed;
+}
+
+.timer button:active {
+    transform: scale(0.96); /* Slightly increased scale for a more noticeable effect */
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #666; /* Softened the default color */
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: #e74c3c;
+}

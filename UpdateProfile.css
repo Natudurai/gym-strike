@@ -1,0 +1,63 @@
+/* src/pages/UpdateProfile.css */
+
+/* Apply black background to the whole page */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set default text color to white */
+    font-family: Arial, sans-serif;
+}
+
+.update-profile {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #0c0000; /* Slightly lighter black for the container background */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+}
+
+.update-profile h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    color: #fff; /* Ensure header text is white */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; /* Label text color */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #333; /* Darker border for better contrast */
+    border-radius: 4px;
+    color: #110101; /* Input text color */
+    background-color: #f7f3f3; /* Dark background for input fields */
+    
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

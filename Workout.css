@@ -1,0 +1,64 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.workout-page {
+  padding: 20px;
+  text-align: center;
+  background-image: url('C:\Users\hashi\OneDrive\Desktop\gymsite\fitee\src\components\gympic9.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+}
+
+
+.workout-page h2 {
+  font-size: 2rem;
+  color: #fcfafa;
+  margin-bottom: 20px;
+}
+
+
+.workout-schedule {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 80px; 
+}
+
+
+.workout-day {
+  border: 1px solid #fffdfd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #070000;
+  color: #ffffff;
+  flex: 1 1 30%; 
+  max-width: 400px; 
+  max-height: 800px;
+  
+}
+
+
+.workout-day h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+
+.workout-day ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.workout-day li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}

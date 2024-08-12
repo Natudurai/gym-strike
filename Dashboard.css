@@ -1,0 +1,193 @@
+/* src/components/Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    height: 100vh; /* Ensure full height of viewport */
+    background-image: url('C:\Users\hashi\OneDrive\Desktop\gymsite\fitee\src\components\gympic8.jpg'); /* Update the path to your background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: rgba(34, 34, 34, 0.8); /* Darker background with slight transparency */
+    color: #f4f4f4; /* Light text color */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for dark theme */
+    border-right: 1px solid #444; /* Darker border */
+    display: flex;
+    flex-direction: column;
+    /* backdrop-filter: blur(10px); Optional: Apply blur effect to sidebar background */
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #f4f4f4; /* Light text color */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #f4f4f4; /* Light text color */
+    font-size: 1rem;
+    display: block;
+    padding: 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #007bff; /* Keep blue for hover effect */
+    color: #fff;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(30, 30, 30, 0.8); /* Darker background with slight transparency */
+    color: #f4f4f4; /* Light text color */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .main-content h1 {
+    font-size: 2rem;
+    color: #f4f4f4; /* Light text color */
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 1rem;
+    color: #ccc; /* Lighter text color for paragraphs */
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  .profile-summary {
+    background-color: rgba(50, 50, 50, 0.8); /* Darker background with slight transparency */
+    color: #f4f4f4; /* Light text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    margin-bottom: 20px;
+  }
+  
+  .profile-summary h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #f4f4f4; /* Light text color */
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: rgba(44, 44, 44, 0.8); /* Darker background with slight transparency */
+    color: #f4f4f4; /* Light text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #f4f4f4; /* Light text color */
+  }
+  
+  .notification-card {
+    background-color: rgba(255, 204, 0, 0.8); /* Darker yellow with slight transparency */
+    color: #333; /* Dark text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    margin-bottom: 20px;
+  }
+  
+  .notification-card h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #333; /* Dark text color */
+  }
+  
+  .dashboard-link {
+    background-color: #007bff; /* Keep blue for buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .dashboard-link:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      box-shadow: none;
+      border-right: none;
+      border-bottom: 1px solid #444; /* Darker border for mobile */
+    }
+  
+    .main-content {
+      padding: 10px;
+    }
+  
+    .card-container {
+      flex-direction: column;
+    }
+  }
+
+  /* src/components/Dashboard.css */
+
+.dashboard-button {
+    display: inline-block;
+    background-color: #007bff; /* Primary color for the button */
+    color: #fff;
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    text-align: center;
+    border: none; /* Remove default border */
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer; /* Change cursor to pointer */
+    font-family: Arial, sans-serif; /* Ensure consistent font */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  .dashboard-button:active {
+    background-color: #004494; /* Even darker shade when active */
+  }
+  
+  

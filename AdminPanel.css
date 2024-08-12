@@ -1,0 +1,134 @@
+/* Apply styles to the whole page */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f0f0f0; /* Light gray background for contrast */
+  font-family: Arial, sans-serif;
+}
+
+/* Main container for the admin panel */
+.admin-panel {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff; /* White background for the panel */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.admin-panel-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-panel-header h2 {
+  margin: 0;
+  color: #333; /* Dark color for header text */
+}
+
+/* Admin info section */
+.admin-info {
+  margin-bottom: 20px;
+}
+
+.admin-info h3 {
+  margin: 0;
+  color: #333;
+}
+
+/* Admin stats styling */
+.admin-stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.stat-item {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.stat-item h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.stat-item p {
+  font-size: 1.5rem;
+  color: #007bff; /* Blue color for stats */
+}
+
+/* System status and user management styling */
+.system-status, .user-management, .notifications, .recent-activities {
+  margin-bottom: 20px;
+}
+
+.system-status h3, .user-management h3, .notifications h3, .recent-activities h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.user-management-form {
+  margin-top: 10px;
+}
+
+.user-management-form input {
+  width: calc(100% - 120px); /* Adjust width to accommodate button */
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-management-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+/* Notification and recent activities styling */
+.notifications ul, .recent-activities ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notifications li, .recent-activities li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer styling */
+.admin-panel-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-logout {
+  background-color: #dc3545;
+}
+
+.btn-logout:hover {
+  background-color: #c82333;
+}

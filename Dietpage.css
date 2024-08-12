@@ -1,0 +1,102 @@
+.diet-page {
+  padding: 40px;
+  background: url(C:\Users\hashi\OneDrive\Desktop\gymsite\fitee\src\components\gympic9.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+}
+
+.diet-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.diet-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #ffffff, #fbf9f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.diet-header p {
+  font-size: 0rem;
+  color: #fffefe;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.diet-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.diet-card {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  width: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.diet-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+}
+
+.diet-card h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color:rgb(90, 178, 255);
+}
+
+.diet-card .diet-description {
+  font-style: italic;
+  color: #f6f3f3;
+  margin-bottom: 20px;
+}
+
+.diet-card .diet-goals,
+.diet-card .diet-benefits,
+.diet-card .diet-suggested-foods,
+.diet-card .diet-nutritional-info,
+.diet-card .meal-plan,
+.diet-card .diet-reviews {
+  margin-top: 20px;
+}
+
+.diet-card h3 {
+  font-size: 1.5rem;
+  color:rgb(136, 214, 108);
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(255, 218, 118);
+  padding-bottom: 5px;
+}
+
+.diet-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.diet-card ul li {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.diet-card .diet-reviews ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.diet-card .diet-reviews ul li {
+  background-color: #555555;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  font-style: italic;
+  border-left: 4px solid #3498db;
+}

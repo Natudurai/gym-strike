@@ -1,0 +1,108 @@
+
+
+.about-container {
+    padding: 2rem;
+    background: linear-gradient(to right, #f9f9f9, #ffffff);
+  }
+  
+  .intro-section {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .intro-section h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .intro-section p {
+    font-size: 1.5rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .mission-section, .team-section, .facilities-section, .why-choose-us-section {
+    margin-top: 3rem;
+  }
+  
+  .mission-section h2, .team-section h2, .facilities-section h2, .why-choose-us-section h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .team-member {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 2rem);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .facilities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .facility-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    flex: 1 1 calc(50% - 2rem);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .facility-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .why-choose-us-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .why-choose-us-section li {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .why-choose-us-section li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-size: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
